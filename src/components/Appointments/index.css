@@ -1,0 +1,140 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  background-size: cover;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .outside-container {
+    display: flex;
+  }
+}
+
+.inside-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: white;
+  border-radius: 10px;
+  height: 100%;
+  width: 90%;
+  overflow-y: scroll;
+}
+
+@media screen and (min-width: 768px) {
+  .inside-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: white;
+    border-radius: 10px;
+    height: 90%;
+    width: 70%;
+    overflow-y: scroll;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .inside-img-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.title-input {
+  padding: 10px;
+  font-family: 'Roboto';
+  width: 100%;
+  border: 1px solid;
+  border-radius: 5px;
+  min-height: 40px;
+}
+
+.add-button {
+  background-color: #8b5cf6;
+  font-size: 15px;
+  color: white;
+  font-family: 'Roboto';
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.cccbp-img {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .cccbp-img {
+    width: 40%;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .input-container {
+    width: 50%;
+  }
+}
+
+.horizontal-line {
+  color: black;
+  width: 100%;
+}
+
+.app-start-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.appoint-heading {
+  font-family: 'Roboto';
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.star-button {
+  background-color: transparent;
+  border: 1px solid #9897f0;
+  color: #9796f0;
+  font-family: 'Roboto';
+  border-radius: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.appointmentItem-container {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+@media screen and (min-width: 768px) {
+  .appointmentItem-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
